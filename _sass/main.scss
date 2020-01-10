@@ -27,3 +27,21 @@ $primary-invert: $pink-invert;
 */
 
 @import "../node_modules/bulma/bulma";
+@import '../node_modules/bulma-social/bin/bulma-social.min.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+.button {
+  &.is-github{color:#fff;background-color:#444;border-color:rgba(0,0,0,0.2)};
+  &.is-linkedin{color:#fff;background-color:#007bb6;border-color:rgba(0,0,0,0.2)};
+  &.is-twitter{color:#fff;background-color:#55acee;border-color:rgba(0,0,0,0.2)};
+
+  /* Stackoverflow */
+  &.is-stackoverflow{color:#fff;background-color:#f48024;border-color:rgba(0,0,0,0.2)}
+}
+  .is-stackoverflow:focus,.is-stackoverflow.focus{color:#fff;background-color:#f48024;border-color:rgba(0,0,0,0.2)}
+  .is-stackoverflow:active,.is-stackoverflow.active,.open>.dropdown-toggle.is-stackoverflow{color:#fff;background-color:#A83400;border-color:rgba(0,0,0,0.2)}
+  .is-stackoverflow:active:hover,.is-stackoverflow.active:hover,.open>.dropdown-toggle.is-stackoverflow:hover,.is-stackoverflow:active:focus,.is-stackoverflow.active:focus,.open>.dropdown-toggle.is-stackoverflow:focus,.is-stackoverflow:active.focus,.is-stackoverflow.active.focus,.open>.dropdown-toggle.is-stackoverflow.focus{color:#fff;background-color:#A83400;border-color:rgba(0,0,0,0.2)}
+  .is-stackoverflow:active,.is-stackoverflow.active,.open>.dropdown-toggle.is-stackoverflow{background-image:none}
+  .is-stackoverflow.disabled:hover,.is-stackoverflow[disabled]:hover,fieldset[disabled] .is-stackoverflow:hover,.is-stackoverflow.disabled:focus,.is-stackoverflow[disabled]:focus,fieldset[disabled] .is-stackoverflow:focus,.is-stackoverflow.disabled.focus,.is-stackoverflow[disabled].focus,fieldset[disabled] .is-stackoverflow.focus{background-color:#A83400;border-color:rgba(0,0,0,0.2)}
+  .is-stackoverflow .badge{color:#A83400;background-color:#fff}
+
