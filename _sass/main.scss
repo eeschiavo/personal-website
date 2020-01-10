@@ -45,3 +45,21 @@ $primary-invert: $pink-invert;
   .is-stackoverflow.disabled:hover,.is-stackoverflow[disabled]:hover,fieldset[disabled] .is-stackoverflow:hover,.is-stackoverflow.disabled:focus,.is-stackoverflow[disabled]:focus,fieldset[disabled] .is-stackoverflow:focus,.is-stackoverflow.disabled.focus,.is-stackoverflow[disabled].focus,fieldset[disabled] .is-stackoverflow.focus{background-color:#A83400;border-color:rgba(0,0,0,0.2)}
   .is-stackoverflow .badge{color:#A83400;background-color:#fff}
 
+.card {
+  margin: 20px 0;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+}
+
+.projects {
+  .content figure {
+    margin: 0;
+  }
+
+  .scriviatende-figure {
+    padding-top: 18px;
+  }
+
+  .trattori-figure {
+    padding-top: 14px;
+  }
+}
