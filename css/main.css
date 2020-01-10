@@ -19,6 +19,8 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
+@import url(../node_modules/bulma-social/bin/bulma-social.min.css);
+@import url(../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6975,3 +6977,48 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.button {
+  /* Stackoverflow */ }
+  .button.is-github {
+    color: #fff;
+    background-color: #444;
+    border-color: rgba(0, 0, 0, 0.2); }
+  .button.is-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0, 0, 0, 0.2); }
+  .button.is-twitter {
+    color: #fff;
+    background-color: #55acee;
+    border-color: rgba(0, 0, 0, 0.2); }
+  .button.is-stackoverflow {
+    color: #fff;
+    background-color: #f48024;
+    border-color: rgba(0, 0, 0, 0.2); }
+
+.is-stackoverflow:focus, .is-stackoverflow.focus {
+  color: #fff;
+  background-color: #f48024;
+  border-color: rgba(0, 0, 0, 0.2); }
+
+.is-stackoverflow:active, .is-stackoverflow.active, .open > .dropdown-toggle.is-stackoverflow {
+  color: #fff;
+  background-color: #A83400;
+  border-color: rgba(0, 0, 0, 0.2); }
+
+.is-stackoverflow:active:hover, .is-stackoverflow.active:hover, .open > .dropdown-toggle.is-stackoverflow:hover, .is-stackoverflow:active:focus, .is-stackoverflow.active:focus, .open > .dropdown-toggle.is-stackoverflow:focus, .is-stackoverflow:active.focus, .is-stackoverflow.active.focus, .open > .dropdown-toggle.is-stackoverflow.focus {
+  color: #fff;
+  background-color: #A83400;
+  border-color: rgba(0, 0, 0, 0.2); }
+
+.is-stackoverflow:active, .is-stackoverflow.active, .open > .dropdown-toggle.is-stackoverflow {
+  background-image: none; }
+
+.is-stackoverflow.disabled:hover, .is-stackoverflow[disabled]:hover, fieldset[disabled] .is-stackoverflow:hover, .is-stackoverflow.disabled:focus, .is-stackoverflow[disabled]:focus, fieldset[disabled] .is-stackoverflow:focus, .is-stackoverflow.disabled.focus, .is-stackoverflow[disabled].focus, fieldset[disabled] .is-stackoverflow.focus {
+  background-color: #A83400;
+  border-color: rgba(0, 0, 0, 0.2); }
+
+.is-stackoverflow .badge {
+  color: #A83400;
+  background-color: #fff; }
