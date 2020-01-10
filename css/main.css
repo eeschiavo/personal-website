@@ -7035,3 +7035,18 @@ label.panel-block {
 
 .projects .trattori-figure {
   padding-top: 14px; }
+
+.socials .level {
+  justify-content: space-between; }
+
+@media screen and (max-width: 1025px) {
+  .socials .level {
+    margin: 0 10%; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1215px) {
+  .socials .level {
+    margin: 0 -80px; } }
+
+@media screen and (min-width: 1215px) and (max-width: 1408px) {
+  .socials .level {
+    margin: 0 -40px; } }
