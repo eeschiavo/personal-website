@@ -7022,3 +7022,16 @@ label.panel-block {
 .is-stackoverflow .badge {
   color: #A83400;
   background-color: #fff; }
+
+.card {
+  margin: 20px 0;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02); }
+
+.projects .content figure {
+  margin: 0; }
+
+.projects .scriviatende-figure {
+  padding-top: 18px; }
+
+.projects .trattori-figure {
+  padding-top: 14px; }
