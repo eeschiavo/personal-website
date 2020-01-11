@@ -45,8 +45,6 @@
     "start": "npm-run-all --parallel css-watch js-watch"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.0",
-    "braces": "^2.3.1",
-    "bulma-social": "^1.0.1"
+    "braces": "^2.3.1"
   }
 }
