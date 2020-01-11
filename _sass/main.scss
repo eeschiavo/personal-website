@@ -28,7 +28,6 @@ $primary-invert: $pink-invert;
 
 @import "../node_modules/bulma/bulma";
 @import '../node_modules/bulma-social/bin/bulma-social.min.css';
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 
 .button {
   &.is-github{color:#fff;background-color:#444;border-color:rgba(0,0,0,0.2)};
