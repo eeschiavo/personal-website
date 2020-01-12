@@ -7051,3 +7051,21 @@ label.panel-block {
 @media screen and (min-width: 1215px) and (max-width: 1408px) {
   .socials .level {
     margin: 0 -40px; } }
+
+.project-content {
+  margin-bottom: 10px !important; }
+
+.store-badge-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .store-badge-flex .store-badge img {
+    max-width: 180px; }
+  .store-badge-flex .store-badge.app-store {
+    padding: 11px; }
+    .store-badge-flex .store-badge.app-store img {
+      height: 48px; }
+
+.chrome-web-store img {
+  margin-top: 15px;
+  max-width: 200px; }

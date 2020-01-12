@@ -90,3 +90,34 @@ $primary-invert: $pink-invert;
     }
   }
 }
+
+.project-content {
+  margin-bottom: 10px !important;
+}
+
+.store-badge-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .store-badge {
+    img {
+      max-width: 180px;
+    }
+
+    &.app-store {
+      padding: 11px;
+      img {
+        height: 48px;
+      }
+    }
+
+  }
+}
+
+.chrome-web-store {
+  img {
+    margin-top: 15px;
+    max-width: 200px;
+  }
+}
